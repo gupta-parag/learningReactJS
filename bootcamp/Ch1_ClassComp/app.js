@@ -4,4 +4,17 @@ class Hello extends React.Component {
   }
 }
 
-ReactDOM.render(<Hello></Hello>, document.getElementById("root"));
+class App extends React.Component {
+  render() {
+    return (
+      <div>
+        <Hello></Hello>
+        <Hello></Hello>
+        <Hello></Hello>
+        <Hello></Hello>
+      </div>
+    );
+  }
+}
+
+ReactDOM.render(<App></App>, document.getElementById("root"));
