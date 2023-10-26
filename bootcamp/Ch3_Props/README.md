@@ -19,3 +19,13 @@ hobbies : ['swimming', 'reading']
 
     -Use JS to compute class names by logic
      winOrLose : "win" ? "lose"
+
+### Create a styleobject and then pass it as an object to the style attribute of a tag
+
+    - const stylObject = {
+      fontSize: "150px",
+      margin: "0px",
+      textAlign: "center",
+    };
+
+- <h1 style={stylObject}>Slot Machine</h1>
