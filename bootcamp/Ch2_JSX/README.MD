@@ -7,6 +7,9 @@ It is just syntactical sugar for React. If there is no transpiler then
 
 - <Div>
   <h1>Hello!</h1> 
+  <img src='./image.png'/>
   </Div>
 - React.createElement('div', null,
-  React.createElement('h1', null, 'My Image'))
+  React.createElement('h1', null, 'My Image'),
+  React.createElement('img', {src:'./image.png'})
+  )
