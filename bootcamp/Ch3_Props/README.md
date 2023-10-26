@@ -4,7 +4,6 @@
 
           - `<Hello name="Jessica" age='27'>` can be referred as `this.props.name` and `this.props.age`
 
-#### - Properties are immutable ` `<Hello name="Jessica" age='27'>`
+#### - Properties are immutable `<Hello name="Jessica" age='27'>`
 
           - `this.props.name='Rachel` and `this.props.age='29'` will retrun error
-
