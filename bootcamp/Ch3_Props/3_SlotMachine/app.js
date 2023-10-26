@@ -12,6 +12,8 @@ class App extends React.Component {
       <div>
         <h1>Slot Machine</h1>
         <Hello data={slotsPicker()}></Hello>
+        <Hello data={slotsPicker()}></Hello>
+        <Hello data={slotsPicker()}></Hello>
       </div>
     );
   }

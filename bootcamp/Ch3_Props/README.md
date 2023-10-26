@@ -7,3 +7,10 @@
 #### - Properties are immutable `<Hello name="Jessica" age='27'>`
 
           - `this.props.name='Rachel` and `this.props.age='29'` will retrun error
+
+### default values of props
+
+          - `static defaultProps={
+              name : 'Jessica',
+              hobbies : ['swimming', 'reading']
+          }`
