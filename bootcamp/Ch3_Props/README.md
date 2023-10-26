@@ -10,7 +10,12 @@
 
 ### default values of props
 
-          - static defaultProps={
-              name : 'Jessica',
-              hobbies : ['swimming', 'reading']
-          }
+The default Props object is set outside the render() method definition, and inside the class component - static defaultProps={
+name : 'Jessica',
+hobbies : ['swimming', 'reading']
+}
+
+### class name should be the name of the component
+
+    -Use JS to compute class names by logic
+     winOrLose : "win" ? "lose"
