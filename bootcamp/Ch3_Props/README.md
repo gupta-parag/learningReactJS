@@ -10,7 +10,7 @@
 
 ### default values of props
 
-          - `static defaultProps={
+          - static defaultProps={
               name : 'Jessica',
               hobbies : ['swimming', 'reading']
-          }`
+          }
