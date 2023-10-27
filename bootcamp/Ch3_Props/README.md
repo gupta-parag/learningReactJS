@@ -28,4 +28,4 @@ hobbies : ['swimming', 'reading']
       textAlign: "center",
     };
 
-- <h1 style={stylObject}>Slot Machine</h1>
+- "<h1 style={stylObject}>Slot Machine</h1>"
